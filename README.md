@@ -1,26 +1,32 @@
 # Proyecto: Amigo Secreto
 
-Este es un proyecto simple de JavaScript, HTML y CSS que permite simular el juego del "Amigo Secreto". Los usuarios pueden agregar nombres a una lista, y luego realizar un sorteo para elegir aleatoriamente a una persona.
+Este es un proyecto simple realizado con HTML, CSS y JavaScript, que permite simular un sorteo de "Amigo Secreto". Los usuarios pueden ingresar nombres, visualizarlos en una lista y generar emparejamientos aleatorios, evitando que alguien se asigne a sí mismo.
 
+---
 
 ## 🚀 Funcionalidades
 
-- Agregar nombres a una lista.
-- Validación de campo vacío.
-- Mostrar la lista de amigos en pantalla.
-- Realizar un sorteo aleatorio.
-- Mostrar el amigo secreto sorteado.
+- ✅ Agregar nombres a una lista.
+- ✅ Validación de campo vacío y nombres duplicados.
+- ✅ Mostrar visualmente la lista de amigos.
+- ✅ Emparejamiento aleatorio completo entre amigos.
+- ✅ Verificación para evitar asignaciones repetidas (nadie se empareja consigo mismo).
+- ✅ Resultados del sorteo visibles en pantalla.
+
+---
 
 ## 🛠️ Tecnologías usadas
 
-- HTML
-- CSS
-- JavaScript (vanilla)
+- HTML5
+- CSS3
+- JavaScript (Vanilla JS)
+
+---
 
 ## 🧩 Estructura del proyecto
 
 ```txt
-amigo-secreto/
+challenge-amigo-secreto/
 │
 ├── index.html
 ├── style.css
@@ -29,6 +35,7 @@ amigo-secreto/
 │   ├── amigo-secreto.png
 │   └── play_circle_outline.png
 └── README.md
+
 ```
 
 ## ⚙️ Cómo ejecutar el proyecto
@@ -39,9 +46,11 @@ amigo-secreto/
 
 ## 🤔 Posibles mejoras
 
-- Evitar nombres duplicados.
-- Permitir editar o eliminar nombres.
-- Implementar emparejamientos completos (cada persona tiene un amigo secreto único).
+- Permitir editar o eliminar amigos de la lista.
+- Agregar persistencia con localStorage.
+- Agregar opción para enviar por correo los resultados.
+- Animaciones visuales para el sorteo.
+
 
 ## 👩🏻‍💻 Firma
 
